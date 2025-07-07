@@ -17,20 +17,10 @@ We built an intelligent real-time pricing engine for 14 urban parking spaces usi
 
 ---
 
+
 ##  Architecture Diagram
 
-```mermaid
-graph TD
-    A[Live Data Generator] --> B(Pathway Engine)
-    B --> C[Model 1: Linear]
-    B --> D[Model 2: Demand-Based]
-    B --> E[Model 3: Competitive]
-    C --> F[Price Output]
-    D --> F
-    E --> F
-    F --> G[Bokeh Real-Time Plot]
-```
-
+![Architecture Diagram](assets/architecture_diagram.png)
 ---
 
 ##  Project Workflow
